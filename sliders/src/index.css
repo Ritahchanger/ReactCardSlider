@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'poppins',sans-serif;
+}
+.container{
+  max-width:1100px;
+  width:100%;
+  margin:0 auto;
+  padding:3rem 0rem;
+}
+img{
+  width:100%;
+}
+.card{
+  display:flex;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
+  flex-direction:column;
+  box-shadow:0 0 5px rgb(0,0,0,0.25);
+  padding:1rem;
+  border-radius:10px;
+}
+.slick-slide > div {
+  margin:0 10px;
+}
+.viewBtn{
+  padding:0.5rem 2rem;
+  border:none;
+  background:hsl(240,60%,50%);
+  color:#fff;
+  cursor:pointer;
+  border-radius:10px;
+  border:2px solid hsl(240,60%,50%);
+}
+.viewBtn:hover{
+  background:transparent;
+  color:#000;
+}
